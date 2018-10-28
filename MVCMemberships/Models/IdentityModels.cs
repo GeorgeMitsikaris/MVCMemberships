@@ -34,5 +34,6 @@ namespace MVCMemberships.Models
         public DbSet<Section> Sections { get; set; }
         public DbSet<Part> Parts { get; set; }
         public DbSet<ItemType> ItemType { get; set; }
+        public DbSet<Item> Items { get; set; }
     }
 }
