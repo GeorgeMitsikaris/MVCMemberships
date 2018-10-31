@@ -200,6 +200,12 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Entities\ItemType.cs" />
     <Compile Include="Entities\Item.cs" />
+    <Compile Include="Entities\SubscriptionProduct.cs" />
+    <Compile Include="Entities\ProductItem.cs" />
+    <Compile Include="Entities\Subscription.cs" />
+    <Compile Include="Entities\ProductLinkText.cs" />
+    <Compile Include="Entities\ProductType.cs" />
+    <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\Part.cs" />
     <Compile Include="Entities\Section.cs" />
     <Compile Include="Global.asax.cs">
@@ -224,6 +230,34 @@
     <Compile Include="Migrations\201810281705586_CreateTableItem.cs" />
     <Compile Include="Migrations\201810281705586_CreateTableItem.Designer.cs">
       <DependentUpon>201810281705586_CreateTableItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810291522454_CreateTableProduct.cs" />
+    <Compile Include="Migrations\201810291522454_CreateTableProduct.Designer.cs">
+      <DependentUpon>201810291522454_CreateTableProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810301954147_CreateProductTypeTable.cs" />
+    <Compile Include="Migrations\201810301954147_CreateProductTypeTable.Designer.cs">
+      <DependentUpon>201810301954147_CreateProductTypeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810301959180_CreateProductLinkText.cs" />
+    <Compile Include="Migrations\201810301959180_CreateProductLinkText.Designer.cs">
+      <DependentUpon>201810301959180_CreateProductLinkText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810302005489_CreateSubscriptionTable.cs" />
+    <Compile Include="Migrations\201810302005489_CreateSubscriptionTable.Designer.cs">
+      <DependentUpon>201810302005489_CreateSubscriptionTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810311702299_CreateTableProductItem.cs" />
+    <Compile Include="Migrations\201810311702299_CreateTableProductItem.Designer.cs">
+      <DependentUpon>201810311702299_CreateTableProductItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810311709204_RenamingTableProductItem.cs" />
+    <Compile Include="Migrations\201810311709204_RenamingTableProductItem.Designer.cs">
+      <DependentUpon>201810311709204_RenamingTableProductItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810311710508_CreateTableSubscriptionProduct.cs" />
+    <Compile Include="Migrations\201810311710508_CreateTableSubscriptionProduct.Designer.cs">
+      <DependentUpon>201810311710508_CreateTableSubscriptionProduct.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -338,6 +372,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810281705586_CreateTableItem.resx">
       <DependentUpon>201810281705586_CreateTableItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810291522454_CreateTableProduct.resx">
+      <DependentUpon>201810291522454_CreateTableProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810301954147_CreateProductTypeTable.resx">
+      <DependentUpon>201810301954147_CreateProductTypeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810301959180_CreateProductLinkText.resx">
+      <DependentUpon>201810301959180_CreateProductLinkText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810302005489_CreateSubscriptionTable.resx">
+      <DependentUpon>201810302005489_CreateSubscriptionTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810311702299_CreateTableProductItem.resx">
+      <DependentUpon>201810311702299_CreateTableProductItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810311709204_RenamingTableProductItem.resx">
+      <DependentUpon>201810311709204_RenamingTableProductItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810311710508_CreateTableSubscriptionProduct.resx">
+      <DependentUpon>201810311710508_CreateTableSubscriptionProduct.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

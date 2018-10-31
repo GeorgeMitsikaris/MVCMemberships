@@ -35,5 +35,11 @@ namespace MVCMemberships.Models
         public DbSet<Part> Parts { get; set; }
         public DbSet<ItemType> ItemType { get; set; }
         public DbSet<Item> Items { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductType> ProductTypes { get; set; }
+        public DbSet<ProductLinkText> ProductLinktext { get; set; }
+        public DbSet<Subscription> Subscriptions { get; set; }
+        public DbSet<ProductItem> ProductItems { get; set; }
+        public DbSet<SubscriptionProduct> SubscriptionProducts { get; set; }
     }
 }
