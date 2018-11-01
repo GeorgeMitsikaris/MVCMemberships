@@ -208,6 +208,7 @@
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\Part.cs" />
     <Compile Include="Entities\Section.cs" />
+    <Compile Include="Entities\UserSubscription.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -258,6 +259,14 @@
     <Compile Include="Migrations\201810311710508_CreateTableSubscriptionProduct.cs" />
     <Compile Include="Migrations\201810311710508_CreateTableSubscriptionProduct.Designer.cs">
       <DependentUpon>201810311710508_CreateTableSubscriptionProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811011722545_CreateTableUserSubscription.cs" />
+    <Compile Include="Migrations\201811011722545_CreateTableUserSubscription.Designer.cs">
+      <DependentUpon>201811011722545_CreateTableUserSubscription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811011738178_AddingFirstnameIsActiveAndRegisteredColumnsToTheAspNetUsersTable.cs" />
+    <Compile Include="Migrations\201811011738178_AddingFirstnameIsActiveAndRegisteredColumnsToTheAspNetUsersTable.Designer.cs">
+      <DependentUpon>201811011738178_AddingFirstnameIsActiveAndRegisteredColumnsToTheAspNetUsersTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -393,6 +402,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810311710508_CreateTableSubscriptionProduct.resx">
       <DependentUpon>201810311710508_CreateTableSubscriptionProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811011722545_CreateTableUserSubscription.resx">
+      <DependentUpon>201811011722545_CreateTableUserSubscription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811011738178_AddingFirstnameIsActiveAndRegisteredColumnsToTheAspNetUsersTable.resx">
+      <DependentUpon>201811011738178_AddingFirstnameIsActiveAndRegisteredColumnsToTheAspNetUsersTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
